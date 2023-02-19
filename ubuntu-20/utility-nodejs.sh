@@ -5,4 +5,4 @@ source /root/.bashrc
 nvm list-remote
 nvm install node v14.21.3
 npm install --global yarn
-
+apt install net-tools
