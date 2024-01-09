@@ -3,7 +3,7 @@
 # Install Rust using rustup
 echo "Installing Rust..."
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
-
+sudo apt install cargo
 # Ensure Cargo bin directory is in the PATH
 source $HOME/.cargo/env
 
